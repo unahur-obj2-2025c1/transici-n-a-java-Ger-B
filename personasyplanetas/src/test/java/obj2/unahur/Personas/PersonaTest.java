@@ -33,4 +33,9 @@ public class PersonaTest {
     void dadaUnaPersonaSuPotenciaEsLaCorrecta() {
         assertEquals(20, p1.potencia());
     }
+
+    @Test
+    void dadaUnaPersonaSuEdadEsLaCorrecta(){
+        assertEquals(8, p3.getEdad());
+    }
 }
